@@ -1,0 +1,87 @@
+.nav {
+    background-color: #66cdaa;
+    font-size: xx-large;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    
+}
+#pasted {
+    display: none;
+}
+
+.nf{
+    background-color: #20b2aa;
+    width: 150px;
+    font-size: 30px;
+}
+
+#pasted1 {
+    display: none;
+}
+
+
+.txt {
+    width: 250px;
+    font-family: 'Pacifico', cursive;
+}
+.txt2 {
+    width: 100%;
+    margin-top: 150px;
+    text-transform: capitalize;
+    font-family: 'Fira Sans', sans-serif;
+}
+.main {
+    margin-top: 50px;
+}
+
+.com {
+    color: #66cdaa;
+    font-weight: bolder;
+    
+}
+
+#password {
+    border: 1px solid #000;
+    outline: none;
+}
+
+#passcode {
+    border: 1px solid #000;
+    outline: none;
+}
+
+
+
+#passwordBtn {
+    margin-top: 20px;
+}
+
+.pass {
+    margin-top: 20px;
+}
+
+#passcodeBtn {
+    margin-top: 20px;
+}
+
+footer {
+    font-size: x-large;
+    font-weight: bold;
+    height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+    .txt {
+        width: 600px;
+        font-size: 60px;
+    }
+
+    .nav {
+        font-size: 50px;
+    }
+}
